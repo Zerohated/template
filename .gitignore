@@ -16,4 +16,4 @@
 bin/*
 docs/*
 log/*
-configs/config.toml
+# configs/config.toml
