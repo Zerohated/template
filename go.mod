@@ -1,4 +1,4 @@
-module gitee.com/evolveZ/trade-lottery
+module gitee.com/evolveZ/project-name
 
 go 1.14
 

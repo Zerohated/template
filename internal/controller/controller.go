@@ -2,7 +2,7 @@ package controller
 
 import (
 	"git.52retail.com/david/tools/pkg/logger"
-	conf "gitee.com/evolveZ/trade-lottery/configs"
+	conf "gitee.com/evolveZ/project-name/configs"
 )
 
 var (

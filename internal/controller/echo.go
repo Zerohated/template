@@ -3,7 +3,7 @@ package controller
 import (
 	"net/http"
 
-	"gitee.com/evolveZ/trade-lottery/internal/model"
+	"gitee.com/evolveZ/project-name/internal/model"
 	"github.com/gin-gonic/gin"
 )
 

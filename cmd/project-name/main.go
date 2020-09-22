@@ -4,9 +4,9 @@ import (
 	"syscall"
 
 	"git.52retail.com/david/tools/pkg/logger"
-	conf "gitee.com/evolveZ/trade-lottery/configs"
-	"gitee.com/evolveZ/trade-lottery/internal/controller"
-	"gitee.com/evolveZ/trade-lottery/pkg/dao"
+	conf "gitee.com/evolveZ/project-name/configs"
+	"gitee.com/evolveZ/project-name/internal/controller"
+	"gitee.com/evolveZ/project-name/pkg/dao"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/fvbock/endless"
