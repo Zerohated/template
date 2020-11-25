@@ -1,4 +1,4 @@
-AppName = "wechat-services"
+AppName = "project-name"
 Port = ":8080"
 Stage = "test"
 

@@ -1,6 +1,6 @@
 package service
 
-import "git.52retail.com/david/tools/pkg/logger"
+import "github.com/Zerohated/tools/pkg/logger"
 
 var log = logger.Logger
 

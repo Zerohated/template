@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"git.52retail.com/david/tools/pkg/logger"
-	conf "gitee.com/evolveZ/project-name/configs"
+	conf "github.com/Zerohated/project-name/configs"
+	"github.com/Zerohated/tools/pkg/logger"
 )
 
 var (

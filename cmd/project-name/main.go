@@ -3,11 +3,10 @@ package main
 import (
 	"syscall"
 
-	"git.52retail.com/david/tools/pkg/logger"
-	conf "gitee.com/evolveZ/project-name/configs"
-	"gitee.com/evolveZ/project-name/internal/controller"
-	"gitee.com/evolveZ/project-name/pkg/dao"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	conf "github.com/Zerohated/project-name/configs"
+	"github.com/Zerohated/project-name/internal/controller"
+	"github.com/Zerohated/project-name/pkg/dao"
+	"github.com/Zerohated/tools/pkg/logger"
 
 	"github.com/fvbock/endless"
 	"github.com/robfig/cron/v3"
@@ -41,8 +40,6 @@ func main() {
 	// limiterMiddle := middleware.LimiterMiddle(generalLimiter)
 
 	c := controller.NewController()
-	// Enable Promethous
-	app.GET("/metrics", basicAuth, gin.WrapH(promhttp.Handler()))
 	// Echo received message
 	app.POST("/echo", c.EchoHandler)
 
